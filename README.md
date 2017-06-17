@@ -25,7 +25,7 @@ console.log(highlightError(code, {
 
 This will print:
 
-<pre><span style="color: blue;">  1</span> | function a() {<br/><span style="color: blue;"><span style="color: red;">></span> 2</span> |   return a + *;<br/>                   <span style="color: red;">^</span><br/><span style="color: blue;">  3</span> | }</pre>
+![colored example](https://raw.githubusercontent.com/droooney/highlight-error/master/colored_example.png)
 
 If you want the output without colors just add the option:
 
